@@ -6,6 +6,8 @@ This is an Elixir CLI tool to merge your text files together with a picture. Thi
 
 It is better if your original _png_ image is small, just like in the example. As a perspective, my image is only `65 Kb`, but the produced _svg_ output was `4.4 Mb`. However, since this is _svg_ I can just open it using software like Photoshop/Illustrator and it the text will be rendered crisp, and I can print it if I want to.
 
+In general, I think a size around `50 Kb` is best. Make sure your `text` source folder does not contain hidden files that contains odd characters.
+
 __Dependencies__:
 * [Elixir 1.4](http://elixir-lang.org/)
 * [ImageMagick](https://www.imagemagick.org/script/index.php)
